@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Haven</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="./master.css">
+		<link rel="stylesheet" href="./style.css">
+
+    <!-- Don't let lightspeeds injected script work -->
+    <!--
+    <meta http-equiv="Content-Security-Policy" content="script-src 'nonce-EDNnf03nceIOfn39fn3e9h3sdfa'; worker-src 'self'">
+    -->
+		<style>
+		</style>
+	</head>
+	<body>
+		<div id="navbar">
+      <!--
+      <a href="/options.html">Options</a>
+      -->
+                <a href="/mc">Minecraft</a>
+		<a href="/exploits">Exploits</a>
+		<a href="/go/hvtrs8%2F-dksaopd%2Ccmm-ilvktg%2FdcOELdGzpz">Chat</a>
+		</div>
+		<div id="content">
+			<input id="omnibox" type="text" placeholder="Type in a search or url here and the site will be unblocked" autocomplete="off" autofocus><br>
+		</div>
+		<div id="suggestions">
+			<div id="inner" hidden>
+			</div>
+		</div>
+		
+		<script src="/uv.bundle.js"></script>
+		<script src="/uv.config.js"></script>
+
+    <script src="/script/proxyhref.js"></script>
+    <script src="/script/setOptions.js"></script>
+    
+		<script type="module" src="/script/index.js"></script>
+    <script type="module">
+      // Redirect back to the home page
+      //if (location.search === "?unlock")
+        //location.search = "";
+    </script>
+	</body>
+</html>
